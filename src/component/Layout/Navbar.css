@@ -1,0 +1,13 @@
+.navbar{
+    background-color: #333;
+    color: #eee;
+    padding: 0.7rem 1rem;
+    & i{
+        font-size: 3rem;
+        margin-right: 1rem;
+    }
+    & h1{
+        display: flex;
+        align-items: center;
+    }
+}

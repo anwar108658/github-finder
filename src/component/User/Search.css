@@ -1,0 +1,21 @@
+.form{
+    max-width: 20rem;
+    display: flex;
+    margin-left: 1rem;
+    margin-top: 1rem;
+    & .text{
+        width: 100%;
+        padding: 0.4rem;
+    }
+    & .btn{
+        /* font-size: 1.3rem; */
+        text-decoration: none;
+        background-color: #1b9d83;
+        color: #eee;
+        margin-left: 0.3rem;
+        padding: 0.4rem 1rem;
+        border-radius: 0.3rem;
+        box-shadow: 1px 3px 4px rgba(0, 0, 0, 0.3);
+        cursor: pointer;
+    }
+}
