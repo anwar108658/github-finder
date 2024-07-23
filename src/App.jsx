@@ -23,10 +23,14 @@ const App = () => {
     onSearchTextHandler();
   },[])
 
+  const clearUserHandler = () => {
+    setUser([]);
+  }
+
   return (
     <>
       <Navbar></Navbar>
-      <Search onSearchText={onSearchTextHandler}></Search>
+      <Search onSearchText={onSearchTextHandler} onClearUsers={clearUserHandler} showUsers={user.length > 0 ? true:false}></Search>
       <User user={user}></User>
     </>
   )
